@@ -33,19 +33,25 @@
         android:visibility="gone"
         android:layout_weight="0" />
 
-    <Button
-        android:id="@+id/buttonNegative"
-        style="?attr/spButtonModeOkCancelButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:layout_weight="0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/buttonPositive"
-        style="?attr/spButtonModeOkCancelButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:layout_weight="0" />
+        <Button
+            android:id="@+id/buttonNegative"
+            style="?attr/spCancelButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonPositive"
+            style="?attr/spOkButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+    </LinearLayout>
 </merge>

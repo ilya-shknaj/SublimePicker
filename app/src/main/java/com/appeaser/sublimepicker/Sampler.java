@@ -228,12 +228,12 @@ public class Sampler extends AppCompatActivity {
 
     void dealWithSavedInstanceState(Bundle savedInstanceState) {
         if (savedInstanceState == null) { // Default
-            cbDatePicker.setChecked(true);
+            cbDatePicker.setChecked(false);
             cbTimePicker.setChecked(true);
-            cbRecurrencePicker.setChecked(true);
+            cbRecurrencePicker.setChecked(false);
             cbAllowDateRangeSelection.setChecked(false);
 
-            rbDatePicker.setChecked(true);
+            rbTimePicker.setChecked(true);
         } else { // Restore
             cbDatePicker.setChecked(savedInstanceState.getBoolean(SS_DATE_PICKER_CHECKED));
             cbTimePicker.setChecked(savedInstanceState.getBoolean(SS_TIME_PICKER_CHECKED));

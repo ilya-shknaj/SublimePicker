@@ -40,7 +40,7 @@
         <!-- Button: landscape styles -->
         <item name="spLandscapeOkActionDrawable">@drawable/checkmark_medium_ff</item>
         <item name="spLandscapeCancelActionDrawable">@drawable/cancel_medium_ff</item>
-        <item name="spLandscapeButtonModeOkCancelButtonStyle">@style/SButtonBarButtonStyle</item>
+        <item name="spLandscapeButtonModeOkCancelButtonStyle">@style/SButtonBarOkButtonStyle</item>
         <item name="spLandscapeButtonModeSwitcherButtonStyle">@style/SInvertedButtonBarButtonStyle</item>
     </style>
 
@@ -70,8 +70,9 @@
         <!-- Button: landscape styles -->
         <item name="spLandscapeOkActionDrawable">@drawable/checkmark_medium_ff</item>
         <item name="spLandscapeCancelActionDrawable">@drawable/cancel_medium_ff</item>
-        <item name="spLandscapeButtonModeOkCancelButtonStyle">@style/SButtonBarButtonStyle</item>
+        <item name="spLandscapeButtonModeOkCancelButtonStyle">@style/SButtonBarOkButtonStyle</item>
         <item name="spLandscapeButtonModeSwitcherButtonStyle">@style/SInvertedButtonBarButtonStyle</item>
+        <item name="cancelButtonBackground">@android:color/transparent</item>
     </style>
 
 </resources>

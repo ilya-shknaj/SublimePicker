@@ -133,13 +133,19 @@
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:gravity">center_vertical|center_horizontal</item>
-        <item name="android:textColor">?attr/colorAccent</item>
-        <item name="android:minWidth">64dp</item>
         <item name="android:maxLines">1</item>
         <item name="android:minHeight">@dimen/sp_dialog_button_bar_height</item>
     </style>
 
-    <style name="SButtonBarButtonStyle" parent="SButtonBarButtonStyleBase" />
+    <style name="SButtonBarOkButtonStyle" parent="SButtonBarButtonStyleBase">
+        <item name="android:textColor">?attr/okButtonTextColor</item>
+        <item name="android:background">?attr/okButtonBackground</item>
+    </style>
+
+    <style name="SButtonBarCancelButtonStyle" parent="SButtonBarButtonStyleBase" >
+        <item name="android:textColor">?attr/cancelButtonTextColor</item>
+        <item name="android:background">?attr/cancelButtonBackground</item>
+    </style>
 
     <!-- Used when extending the partition through Button bar
          See land/styles.xml -->
@@ -371,11 +377,11 @@
         <item name="spOkActionDrawable">@drawable/checkmark_medium_ff</item>
         <item name="spCancelActionDrawable">@drawable/cancel_medium_ff</item>
         <item name="spIconColor">?attr/colorAccent</item>
-        <item name="spButtonBgColor">?attr/colorButtonNormal</item>
         <item name="spButtonPressedBgColor">?attr/colorControlHighlight</item>
         <item name="spButtonBarBgColor">@android:color/transparent</item>
-        <item name="spButtonModeOkCancelButtonStyle">@style/SButtonBarButtonStyle</item>
-        <item name="spButtonModeSwitcherButtonStyle">?attr/spButtonModeOkCancelButtonStyle</item>
+        <item name="spOkButtonStyle">@style/SButtonBarOkButtonStyle</item>
+        <item name="spCancelButtonStyle">@style/SButtonBarCancelButtonStyle</item>
+        <item name="spButtonModeSwitcherButtonStyle">?attr/spOkButtonStyle</item>
         <item name="spButtonInvertedBgColor">?attr/colorAccent</item>
         <item name="spButtonPressedInvertedBgColor">@color/sp_ripple_material_dark</item>
     </style>

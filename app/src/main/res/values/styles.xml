@@ -31,9 +31,9 @@
         <item name="colorAccent">@color/c_accent</item>
         <item name="colorPrimaryDark">@color/c_primary_dark</item>
         <item name="colorPrimary">@color/c_primary</item>
-        <item name="android:textColorPrimary">#212121</item>
-        <item name="android:textColorSecondary">#727272</item>
-        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+        <item name="okButtonTextColor">#ffffff</item>
+        <item name="cancelButtonTextColor">@color/calendar_disabled_text_color_light</item>
+        <item name="okButtonBackground">#afffff</item>
     </style>
 
 </resources>

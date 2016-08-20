@@ -59,6 +59,9 @@
     <attr name="spLandscapeButtonModeOkCancelButtonStyle" format="reference" />
     <attr name="spLandscapeButtonModeSwitcherButtonStyle" format="reference" />
 
+    <attr name="okButtonTextColor" format="color"/>
+    <attr name="cancelButtonTextColor" format="color"/>
+
     <declare-styleable name="SublimePicker">
         <attr name="spDatePickerStyle" />
         <attr name="spMonthViewStyle" />
@@ -187,7 +190,11 @@
         <!-- OK & CANCEL button style attr. Override
              'spLandscapeButtonModeOkCancelButtonStyle' under style
              set to 'sublimePickerStyle' to change this drawable in landscape mode. -->
-        <attr name="spButtonModeOkCancelButtonStyle" format="reference" />
+        <attr name="spOkButtonStyle" format="reference" />
+        <attr name="spCancelButtonStyle" format="reference" />
+        <attr name="okButtonBackground" format="reference|color"/>
+        <attr name="cancelButtonBackground" format="reference|color"/>
+        <attr name="timePickerPadding" format="dimension"/>
         <!-- In portrait orientation,
              'buttonModeSwitcherButtonStyle' will point to the same style
              as 'buttonModeOkCancelButtonStyle'. In landscape mode,
