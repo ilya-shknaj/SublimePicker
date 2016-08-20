@@ -195,6 +195,8 @@
         <attr name="okButtonBackground" format="reference|color"/>
         <attr name="cancelButtonBackground" format="reference|color"/>
         <attr name="timePickerPadding" format="dimension"/>
+        <attr name="timePickerButtonWidth" format="dimension"/>
+        <attr name="timePickerButtonHeight" format="dimension"/>
         <!-- In portrait orientation,
              'buttonModeSwitcherButtonStyle' will point to the same style
              as 'buttonModeOkCancelButtonStyle'. In landscape mode,

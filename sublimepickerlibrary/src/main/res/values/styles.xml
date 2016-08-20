@@ -384,6 +384,8 @@
         <item name="spButtonModeSwitcherButtonStyle">?attr/spOkButtonStyle</item>
         <item name="spButtonInvertedBgColor">?attr/colorAccent</item>
         <item name="spButtonPressedInvertedBgColor">@color/sp_ripple_material_dark</item>
+        <item name="timePickerButtonWidth">108dp</item>
+        <item name="timePickerButtonHeight">36dp</item>
     </style>
 
 </resources>
